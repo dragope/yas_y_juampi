@@ -7,14 +7,14 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
+      fontFamily: {
+        sans: ['var(--font-quicksand)']
+      }
     },
     colors: {
       "olive-green": "#9AB09C",
-      "white": '#ffffff'
+      "white": '#ffffff',
+      "light-form": '#f0efed'
     }
   },
   plugins: [],

@@ -14,7 +14,9 @@ export default function Home() {
   const [open, setOpen] = useState(false)
 
   return (
-    <>
+    <div
+      className=''
+    >
       <HomePage />
       <FirstBar />
       <SecondBar open={open} setOpen={setOpen}/>
@@ -24,6 +26,6 @@ export default function Home() {
       { open &&
         <Modal setOpen={setOpen}/>
       }
-    </>
+    </div>
   );
 }

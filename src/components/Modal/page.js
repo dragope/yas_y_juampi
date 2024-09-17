@@ -5,7 +5,7 @@ const Modal = ({ setOpen }) => {
   return (
     <div className="fixed top-0 w-full h-full flex flex-col justify-center items-center z-30">
 
-        <div className="w-[80%] md:w-[30%]  rounded-2xl bg-white shadow-md p-[2rem]">
+        <div className="w-[85%] md:w-[30%]  rounded-2xl bg-white shadow-xl p-[2rem]">
             <div className="flex flex-col items-end justify-center">
                 <Image 
                     src={Close}
@@ -20,11 +20,11 @@ const Modal = ({ setOpen }) => {
             </div>
             <div className="w-full flex flex-col items-center justify-center">
                 <b className="text-[1rem]">CBU</b>
-                <p className="text-[1.2rem] mb-[1rem]">1234000005543222012</p>
+                <p className="text-[1rem] mb-[1rem] w-full text-center bg-light-form p-[0.5rem] rounded ">1234000005543222012</p>
                 <b className="text-[1rem]">Alias</b>
-                <p className="text-[1.2rem] mb-[1rem]">LANRGRITA.MEJOR.NEUROLOGA</p>
+                <p className="text-[1rem] mb-[1rem] w-full text-center bg-light-form p-[0.5rem] rounded ">LANEGRITA.MEJOR.NEUROLOGA</p>
                 <b className="text-[1rem]">Banco</b>
-                <p className="text-[1.2rem]">BBVA Francés</p>
+                <p className="text-[1rem] w-full text-center bg-light-form p-[0.5rem] rounded ">BBVA Francés</p>
 
             </div>
 
