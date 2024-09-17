@@ -20,6 +20,7 @@ export default function Home() {
       <SecondBar open={open} setOpen={setOpen}/>
       <ThirdBar />
       <FinalBar />
+      
       { open &&
         <Modal setOpen={setOpen}/>
       }
