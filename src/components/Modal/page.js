@@ -19,10 +19,14 @@ const Modal = ({ setOpen }) => {
                 <hr />
             </div>
             <div className="w-full flex flex-col items-center justify-center">
+                <b className="text-[1rem]">Número de cuenta</b>
+                <p className="text-[1rem] mb-[1rem] w-full text-center bg-light-form p-[0.5rem] rounded ">4-225490/2</p>
                 <b className="text-[1rem]">CBU</b>
-                <p className="text-[1rem] mb-[1rem] w-full text-center bg-light-form p-[0.5rem] rounded ">1234000005543222012</p>
+                <p className="text-[1rem] mb-[1rem] w-full text-center bg-light-form p-[0.5rem] rounded ">0170004640000022549022</p>
                 <b className="text-[1rem]">Alias</b>
-                <p className="text-[1rem] mb-[1rem] w-full text-center bg-light-form p-[0.5rem] rounded ">LANEGRITA.MEJOR.NEUROLOGA</p>
+                <p className="text-[1rem] mb-[1rem] w-full text-center bg-light-form p-[0.5rem] rounded ">YBRAVO</p>
+                <b className="text-[1rem]">Tipo de cuenta</b>
+                <p className="text-[1rem] mb-[1rem] w-full text-center bg-light-form p-[0.5rem] rounded ">Caja de Ahorro en Pesos</p>
                 <b className="text-[1rem]">Banco</b>
                 <p className="text-[1rem] w-full text-center bg-light-form p-[0.5rem] rounded ">BBVA Francés</p>
 
