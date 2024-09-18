@@ -6,9 +6,13 @@ import Anillos from '/public/Anillos.png'
 import Fecha from '/public/Fecha.png'
 import arrow_down from '/public/arrow_down.svg'
 
-
-
 export default function HomePage() {
+
+    const scrolltoHash = function (element_id) {
+      const element = document.getElementById(element_id)
+      element?.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
+    }
+
   return (
     <div 
       className="h-[100vh] w-[100vw] bg-[url(/background.png)] flex flex-col justify-between items-center"
@@ -24,17 +28,17 @@ export default function HomePage() {
         <Image 
           src={Anillos}
           alt="anillos"
-          className="w-[35%] md:w-[10%]"
+          className="w-[25%] md:w-[7.5%]"
         />
         <Image
           src={Nombres}
           alt="nombres"
-          className="w-[80%] md:w-[25%]"
+          className="w-[75%] md:w-[35%]"
         />
         <Image
           src={Fecha}
           alt="fecha"
-          className="w-[70%] md:w-[25%]"
+          className="w-[75%] md:w-[35%]"
         />
       </div>
       <div className="absolute bottom-0 w-[100vw] flex flex-row justify-end align-center">
@@ -48,7 +52,8 @@ export default function HomePage() {
         <Image 
           src={arrow_down}
           alt="arrow down"
-          className="md:h-[100px] h-[100px] opacity-50 animate-bounce"
+          className="md:h-[100px] h-[100px] opacity-50 animate-bounce cursor-pointer"
+          onClick={()=> scrolltoHash('first_bar')}
         />
       </div>
     </div>

@@ -10,7 +10,7 @@ const FirstBar = () => {
     const router = useRouter()
 
   return (
-    <div className='w-[100vw] bg-white p-[2rem] flex flex-col justify-center items-center'>
+    <div id="first_bar" className='w-[100vw] bg-white p-[2rem] flex flex-col justify-center items-center'>
         <Image 
             src={brindis}
             alt="brindis"
